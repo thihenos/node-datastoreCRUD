@@ -1,0 +1,35 @@
+{
+  "name": "datastorecrud",
+  "version": "1.0.0",
+  "description": "Node Datastore CRUD example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thihenos/node-datastoreCRUD.git"
+  },
+  "keywords": [
+    "node",
+    "datastore"
+  ],
+  "author": "@thihenos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thihenos/node-datastoreCRUD/issues"
+  },
+  "homepage": "https://github.com/thihenos/node-datastoreCRUD#readme",
+  "dependencies": {
+    "@google-cloud/datastore": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.3",
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "path": "^0.12.7"
+  }
+}

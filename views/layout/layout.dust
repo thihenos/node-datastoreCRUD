@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test App</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
+  </head>
+  <body>
+
+    {+body /}
+
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mt-5 mb-3 text-muted">&copy; 2018 - @thihenos</p>
+    </footer>
+
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
