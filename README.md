@@ -26,7 +26,7 @@ $ npm install
 ```
 
 ### Database
-Follow the instructions on index.js file inside server folder to configure your Google Cloud Project.
+Change the value of variable `let projectId = 'YOUR KEY HERE';` inside [index.js](https://github.com/thihenos/node-datastoreCRUD/tree/master/server/models) file inside server/models folder.
 
 ### Test
 In app.js file, I configurated the http PORT to 3000, you can change as you wanted, so, in this example, when start this example, it will be released in localhost:3000 address :)
