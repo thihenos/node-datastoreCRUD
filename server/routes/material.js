@@ -52,10 +52,9 @@ exports.update = function(req, res) {
   let filter = db.datastore.key(['material', db.datastore.int(req.param('id'))]);
   db.datastore.get(filter, function(err, material){
     if (material) {
-      /* Updatind all attributes without refreshing the page
-       * If you want to update a few attributes, you can use the example bellow
-       * result.updateAttributes({attr1: req.body.name, attr2: req.body.location}).then(function(result) {
-       * note that which attr1 correspond to a column in table
+      /* Updatind all attributes by indicating the data attribute in JSON
+       * the most important thing, is the key attribute, it indicates which entity
+       * we are going to update
        */
       let item = {
         key : filter,
@@ -66,7 +65,6 @@ exports.update = function(req, res) {
         if (entity) {
           //Updated item, now rendering it
             findMaterial(req.param('id'),res,'It is updated!');
-          //res.render('material/edit',{material: item, message: ""});
         }else{
           //Sends error if we get
           res.status(500).send('Error! '+err);
