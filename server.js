@@ -57,8 +57,8 @@ app.set('views',__dirname + '/views');
  */
 app.use(express.static(path.join(__dirname,'public')));
 
-// Starting Server on PORT 3000
-app.listen(process.env.PORT || 3000, function(){
+// Starting Server on PORT 8080
+app.listen(process.env.PORT || 8080, function(){
 	console.log('Server Started On Port 3000');
 });
 
